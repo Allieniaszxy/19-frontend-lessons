@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="screen active" id="start-quiz">
+        <h1>Quiz Time!</h1>
+        <p>
+          Let's get the quiz started to see who are knowledgeable enough to join
+          us
+        </p>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+      <div class="quiz-container screen" id="quiz-container">
+        <h3 class="questions">Questions to be asked</h3>
+        <div class="quiz-score">
+          <p>
+            Question <span id="question-count">1</span> of
+            <span id="total-questions">6</span>
+          </p>
+          <p>Score: <span id="score">0</span></p>
+        </div>
+        <div class="quiz-answers" id="quiz-answers"></div>
+        <div class="progress-bar" id="progress-bar">
+          <span class="progress"></span>
+        </div>
+      </div>
+      <div class="result-container screen" id="result-container">
+        <h1>Quiz Result</h1>
+        <div class="result-info">
+          <p>
+            You scored <span id="final-score">0</span> out of
+            <span id="total-score-attainable">6</span>
+          </p>
+          <p class="result-message">You need to work on yourself</p>
+        </div>
+        <button id="restart-btn">Restart</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
