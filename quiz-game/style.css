@@ -77,7 +77,7 @@ body {
 
 .answer-btn:hover {
   background-color: #f0fff1;
-  border-color: 2px solid rgb(114, 155, 155);
+  border: 2px solid rgb(114, 155, 155);
 }
 
 .answer-btn.correct {
@@ -102,8 +102,8 @@ body {
 .progress {
   height: 100%;
   width: 0%;
-  background-color: #ffbdbd;
-  transition: width 0.3s ease;
+  background-color: #f85e5e;
+  transition: width 0.4s ease;
 }
 
 .result-container h1 {
